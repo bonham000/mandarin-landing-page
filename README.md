@@ -1,5 +1,9 @@
 ### Mandarin App Landing Page
 
+Landing page for this app: https://github.com/bonham000/mandarin.
+
+---
+
 **Running the Project:**
 
 - To run the project run `yarn start`.
