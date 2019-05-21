@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import React, { Component } from "react";
 import LinearGradient from "react-native-web-linear-gradient";
 
-import Header from "./components/Header";
+import Content from "./components/Content";
 
 /** =======================================================
  * Types & Config
@@ -17,12 +17,6 @@ const GRADIENT: ReadonlyArray<any> = ["#EE6060", "#FF3F3F"];
  */
 
 class App extends Component<{}, {}> {
-  constructor(props: {}) {
-    super(props);
-
-    this.state = {};
-  }
-
   render(): JSX.Element {
     return (
       <LinearGradient
@@ -32,7 +26,7 @@ class App extends Component<{}, {}> {
         end={{ x: 1, y: 1 }}
       >
         <Container>
-          <Header />
+          <Content />
         </Container>
       </LinearGradient>
     );
@@ -45,8 +39,10 @@ class App extends Component<{}, {}> {
  */
 
 const Container = styled("div")`
-  height: 100vh;
   width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 `;
 
 /** =======================================================

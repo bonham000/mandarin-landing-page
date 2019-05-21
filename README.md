@@ -1,4 +1,4 @@
-### React Web Starter
+### Mandarin App Landing Page
 
 **Running the Project:**
 
