@@ -9,7 +9,7 @@ import Header from "./components/Header";
  * ========================================================
  */
 
-const GRADIENT: ReadonlyArray<any> = ["rgb(3, 61, 88)", "rgb(34, 34, 36)"];
+const GRADIENT: ReadonlyArray<any> = ["#EE6060", "#FF3F3F"];
 
 /** =======================================================
  * React Component
@@ -45,7 +45,6 @@ class App extends Component<{}, {}> {
  */
 
 const Container = styled("div")`
-  flex: 1;
   height: 100vh;
   width: 100vw;
 `;
