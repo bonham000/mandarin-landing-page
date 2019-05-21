@@ -33,20 +33,11 @@ jobs:
           root: ~/mandarin-landing-page
           paths: .
 
-      # Install Surge, build and deploy
-      - run:
-          name: Install Surge
-          command: sudo yarn global add surge
-      - run:
-          name: Login to Surge
-          command: surge login --username $SURGE_USERNAME --password $SURGE_PASSWORD
       - run:
           name: Deploy update to Surge
           command: |
-            surge whoami
-            # yarn build
-            # cd build
-            # surge --domin learn-chinese.surge.sh
+            yarn build
+            yarn deploy
 workflows:
   version: 2
   test_and_deploy_update:
