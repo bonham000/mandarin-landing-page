@@ -5,7 +5,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "surge --project ./build --domain learn-chinese.surge.sh",
+    "deploy": "surge --project ./build --domain everyday-luck.surge.sh",
     "prettier": "prettier --list-different './{src,test}/**/*.{ts,tsx}'",
     "prettier:fix": "prettier --write './{src,test}/**/*.{ts,tsx}'",
     "tslint": "tslint --project tsconfig.json -c tslint.json",
