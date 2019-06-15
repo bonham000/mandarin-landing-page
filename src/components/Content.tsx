@@ -38,6 +38,11 @@ const Content = () => {
         >
           Learn more about the HSK
         </a>
+        <br />
+        <br />
+        <a target="blank" href="https://github.com/bonham000/mandarin">
+          Open Source Project
+        </a>
       </ContentContainer>
     </Container>
   );

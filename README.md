@@ -1,6 +1,6 @@
-### Mandarin App Landing Page
+### Everyday Luck Landing Page
 
-Landing page for this app: https://github.com/bonham000/mandarin.
+A simple ReactJS frontend informational landing page for the app [*Everyday Luck*](https://github.com/bonham000/mandarin).
 
 ---
 
