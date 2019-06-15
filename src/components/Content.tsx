@@ -10,24 +10,27 @@ const Content = () => {
   return (
     <Container>
       <ContentContainer>
-        <Title>很多汉字</Title>
-        <SubTitle>Mandarin Learning App</SubTitle>
+        <Title>天天吉</Title>
+        <SubTitle>Everyday Luck</SubTitle>
         <ImageContainer>
           <img src={`${process.env.PUBLIC_URL}/google.png`} />
           <img src={`${process.env.PUBLIC_URL}/apple.png`} />
         </ImageContainer>
         <DescriptionText>
-          This app uses the vocabulary content from the{" "}
-          <b>Hanyu Shuiping Kaoshi</b> (Chinese Proficiency Test). This test is
-          the standardized test of Standard Chinese language proficiency of
-          China for non-native speakers such as foreign students and overseas
-          Chinese.
+          This app uses repetitive-learning and a game-based approach to provide
+          small, portable lessons covering the <b>Hanyu Shuiping Kaoshi</b>{" "}
+          (Chinese Proficiency Test) vocabulary content. The Hanyu Shuiping
+          Kaoshi is a standardized Chinese proficiency tests which provides a
+          set of vocabulary for learners to practice and learn. There are 5,000
+          words provided here to learn.
         </DescriptionText>
         <DescriptionText>
-          There are 6 levels total, which comprise a total of 5,000 words and
-          about 2,500 characters. The goal of the app is to break these lessons
-          into a series of small challenges which can be mastered with a little
-          practice each day.
+          The goal of the app is to provide an easy and approachable way to
+          practice learning and reviewing these words everyday. That's where the
+          notion 天天吉 comes into play. You just need a little luck everyday to
+          learn Chinese! The name itself also hides a clever joke, if you read
+          "jí" differently as "jú", the name is 天天桔 - "Everyday Orange" or
+          "Everyday Mandarin".
         </DescriptionText>
         <a
           target="blank"
@@ -56,7 +59,7 @@ const Container = styled("div")`
 
 const ContentContainer = styled("div")`
   padding: 12px;
-  max-width: 500px;
+  max-width: 525px;
   max-height: 500px;
   text-align: center;
 `;
@@ -64,7 +67,7 @@ const ContentContainer = styled("div")`
 const Title = styled("h1")`
   margin-top: 2px;
   margin-bottom: 2px;
-  font-size: 75px;
+  font-size: 65px;
   font-weight: bold;
 `;
 
