@@ -10,19 +10,26 @@ const Content = () => {
   return (
     <Container>
       <ContentContainer>
+        <img className="orange" src={`${process.env.PUBLIC_URL}/orange.png`} />
         <Title>天天吉</Title>
-        <SubTitle>Everyday Luck</SubTitle>
+        <SubTitle>Everyday Luck 🍀</SubTitle>
         <ImageContainer>
-          <img src={`${process.env.PUBLIC_URL}/google.png`} />
-          <img src={`${process.env.PUBLIC_URL}/apple.png`} />
+          <img
+            className="app-link"
+            src={`${process.env.PUBLIC_URL}/google.png`}
+          />
+          <img
+            className="app-link"
+            src={`${process.env.PUBLIC_URL}/apple.png`}
+          />
         </ImageContainer>
         <DescriptionText>
           This app uses repetitive-learning and a game-based approach to provide
           small, portable lessons covering the <b>Hanyu Shuiping Kaoshi</b>{" "}
           (Chinese Proficiency Test) vocabulary content. The Hanyu Shuiping
           Kaoshi is a standardized Chinese proficiency tests which provides a
-          set of vocabulary for learners to practice and learn. There are 5,000
-          words provided here to learn.
+          set of vocabulary for learners to practice and learn. This app
+          provides 5,000 words to learn.
         </DescriptionText>
         <DescriptionText>
           The goal of the app is to provide an easy and approachable way to
@@ -63,6 +70,7 @@ const Container = styled("div")`
 `;
 
 const ContentContainer = styled("div")`
+  margin-top: -200px;
   padding: 12px;
   max-width: 525px;
   max-height: 500px;
@@ -80,7 +88,7 @@ const SubTitle = styled("h1")`
   margin-top: 10;
   margin-bottom: 10;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
 `;
 
 const DescriptionText = styled("p")`

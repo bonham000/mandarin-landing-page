@@ -9,8 +9,7 @@ import Content from "./components/Content";
  * ========================================================
  */
 
-const GRADIENT: ReadonlyArray<any> = ["#EE6060", "#FF3F3F"];
-
+const GRADIENT: ReadonlyArray<string> = ["#f7f9f7", "#eaefea"];
 /** =======================================================
  * React Component
  * ========================================================
