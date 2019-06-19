@@ -25,3 +25,9 @@ a:hover {
   color: #74ff6b;
   cursor: pointer;
 }
+
+.terms {
+  margin: 5px;
+  font-size: 11px;
+  color: rgb(75, 75, 75);
+}

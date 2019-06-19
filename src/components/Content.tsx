@@ -25,7 +25,13 @@ const Content = () => {
         </ImageContainer>
         <DescriptionText>
           This app uses repetitive-learning and a game-based approach to provide
-          small, portable lessons covering the <b>Hanyu Shuiping Kaoshi</b>{" "}
+          small, portable lessons covering the{" "}
+          <a
+            target="blank"
+            href="https://en.wikipedia.org/wiki/Hanyu_Shuiping_Kaoshi"
+          >
+            <b>Hanyu Shuiping Kaoshi</b>
+          </a>{" "}
           (Chinese Proficiency Test) vocabulary content. The Hanyu Shuiping
           Kaoshi is a standardized Chinese proficiency tests which provides a
           set of vocabulary for learners to practice and learn. This app
@@ -39,17 +45,29 @@ const Content = () => {
           "jí" differently as "jú", the name is 天天桔 - "Everyday Orange" or
           "Everyday Mandarin".
         </DescriptionText>
-        <a
-          target="blank"
-          href="https://en.wikipedia.org/wiki/Hanyu_Shuiping_Kaoshi"
-        >
-          Learn more about the HSK
-        </a>
-        <br />
-        <br />
         <a target="blank" href="https://github.com/bonham000/mandarin">
           Open Source Project
         </a>
+        <DocumentsBox>
+          <TermsText>
+            Everyday Luck
+            <a
+              className="terms"
+              target="blank"
+              href="https://github.com/bonham000/everyday-luck-app/blob/master/documents/TERMS_OF_USE.md"
+            >
+              Terms of Use
+            </a>
+            &
+            <a
+              className="terms"
+              target="blank"
+              href="https://github.com/bonham000/everyday-luck-app/blob/master/documents/PRIVACY_POLICY.md"
+            >
+              Privacy Policy
+            </a>
+          </TermsText>
+        </DocumentsBox>
       </ContentContainer>
     </Container>
   );
@@ -95,10 +113,21 @@ const DescriptionText = styled("p")`
   font-size: 15px;
 `;
 
+const TermsText = styled("p")`
+  margin: 5px;
+  font-size: 11px;
+  color: rgb(40, 40, 40);
+`;
+
 const ImageContainer = styled("div")`
   padding: 2px;
   align-items: center;
   justify-content: center;
+`;
+
+const DocumentsBox = styled("div")`
+  margin-top: 16px;
+  text-align: center;
 `;
 
 /** =======================================================
