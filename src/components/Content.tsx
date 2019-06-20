@@ -14,14 +14,21 @@ const Content = () => {
         <Title>天天吉</Title>
         <SubTitle>Everyday Luck 🍀</SubTitle>
         <ImageContainer>
-          <img
-            className="app-link"
-            src={`${process.env.PUBLIC_URL}/google.png`}
-          />
-          <img
-            className="app-link"
-            src={`${process.env.PUBLIC_URL}/apple.png`}
-          />
+          <a
+            target="blank"
+            href="https://play.google.com/store/apps/details?id=com.everyday.luck&hl=en"
+          >
+            <img
+              className="app-link"
+              src={`${process.env.PUBLIC_URL}/google.png`}
+            />
+          </a>
+          <a target="blank" href="">
+            <img
+              className="app-link"
+              src={`${process.env.PUBLIC_URL}/apple.png`}
+            />
+          </a>
         </ImageContainer>
         <DescriptionText>
           This app uses repetitive-learning and a game-based approach to provide
